@@ -830,3 +830,451 @@ Received Import Request.
 Start importing Assets/Samples/2D Tilemap Extras/3.1.2 using Guid(47a450c45ee6d744894c5b324bbe2e9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96c1ab8f89231f4cb27d912afc433149') in 0.000695 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 859.818100 seconds.
+  path: Assets/pixel_cyberpunk_interior_free_1.0.1/pixel_cyberpunk_interior_free_1.0.1/pixel-cyberpunk-interior_47.asset
+  artifactKey: Guid(32b10cee35b38594fb9ceb8fd40daebf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/pixel_cyberpunk_interior_free_1.0.1/pixel_cyberpunk_interior_free_1.0.1/pixel-cyberpunk-interior_47.asset using Guid(32b10cee35b38594fb9ceb8fd40daebf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6c200a30c7da4298c69f44c6050d436') in 0.054707 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/pixel_cyberpunk_interior_free_1.0.1/pixel_cyberpunk_interior_free_1.0.1/pixel-cyberpunk-interior_55.asset
+  artifactKey: Guid(b23dc0d40347a214db6aabd32c592a9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/pixel_cyberpunk_interior_free_1.0.1/pixel_cyberpunk_interior_free_1.0.1/pixel-cyberpunk-interior_55.asset using Guid(b23dc0d40347a214db6aabd32c592a9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f24d5d6ce252d7b4616511e6bb9d8268') in 0.019471 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/pixel_cyberpunk_interior_free_1.0.1/pixel_cyberpunk_interior_free_1.0.1/pixel-cyberpunk-interior_52.asset
+  artifactKey: Guid(817628bca87f1db4e842af2b3c5486bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/pixel_cyberpunk_interior_free_1.0.1/pixel_cyberpunk_interior_free_1.0.1/pixel-cyberpunk-interior_52.asset using Guid(817628bca87f1db4e842af2b3c5486bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5066bbb56e10cf7cddf0cbe8eca085f8') in 0.020284 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/pixel_cyberpunk_interior_free_1.0.1/pixel_cyberpunk_interior_free_1.0.1/pixel-cyberpunk-interior_54.asset
+  artifactKey: Guid(73fcd85ae878a9b45aad867af0990c01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/pixel_cyberpunk_interior_free_1.0.1/pixel_cyberpunk_interior_free_1.0.1/pixel-cyberpunk-interior_54.asset using Guid(73fcd85ae878a9b45aad867af0990c01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '151a9a6822f25a612d5cd7c42436c412') in 0.019511 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/pixel_cyberpunk_interior_free_1.0.1/pixel_cyberpunk_interior_free_1.0.1/pixel-cyberpunk-interior_56.asset
+  artifactKey: Guid(fa8bae6bdcf91294b8191a1667e84617) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/pixel_cyberpunk_interior_free_1.0.1/pixel_cyberpunk_interior_free_1.0.1/pixel-cyberpunk-interior_56.asset using Guid(fa8bae6bdcf91294b8191a1667e84617) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cc71c07d9bb5ab221f02646ab3131be') in 0.020566 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.215182 seconds.
+  path: Assets/pixel_cyberpunk_interior_free_1.0.1/pixel_cyberpunk_interior_free_1.0.1/pixel-cyberpunk-interior_57.asset
+  artifactKey: Guid(86802191670eb9c46b75103a2d6f699c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/pixel_cyberpunk_interior_free_1.0.1/pixel_cyberpunk_interior_free_1.0.1/pixel-cyberpunk-interior_57.asset using Guid(86802191670eb9c46b75103a2d6f699c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4adfd2f427737992ee6fbc116502f22') in 0.022423 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/pixel_cyberpunk_interior_free_1.0.1/pixel_cyberpunk_interior_free_1.0.1/pixel-cyberpunk-interior_64.asset
+  artifactKey: Guid(0af416e15941a3f40aa9037a1c8389f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/pixel_cyberpunk_interior_free_1.0.1/pixel_cyberpunk_interior_free_1.0.1/pixel-cyberpunk-interior_64.asset using Guid(0af416e15941a3f40aa9037a1c8389f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d7de1f829d76f64058712606fff9619') in 0.023080 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/pixel_cyberpunk_interior_free_1.0.1/pixel_cyberpunk_interior_free_1.0.1/pixel-cyberpunk-interior_61.asset
+  artifactKey: Guid(16af636f69b05bd4983bdac17de9c5b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/pixel_cyberpunk_interior_free_1.0.1/pixel_cyberpunk_interior_free_1.0.1/pixel-cyberpunk-interior_61.asset using Guid(16af636f69b05bd4983bdac17de9c5b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2d943892e8ca1cae28cfdc5bd84d8f8') in 0.019142 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/pixel_cyberpunk_interior_free_1.0.1/pixel_cyberpunk_interior_free_1.0.1/pixel-cyberpunk-interior_59.asset
+  artifactKey: Guid(e39f95f0b71f32842b731ffa51469122) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/pixel_cyberpunk_interior_free_1.0.1/pixel_cyberpunk_interior_free_1.0.1/pixel-cyberpunk-interior_59.asset using Guid(e39f95f0b71f32842b731ffa51469122) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '713c547db59e3283cc1a4a4b70e6f4df') in 0.020993 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 102.293098 seconds.
+  path: Assets/pixel_cyberpunk_interior_free_1.0.1/pixel_cyberpunk_interior_free_1.0.1/pixel-cyberpunk-interior_65.asset
+  artifactKey: Guid(21c4389007dcf8d449ab8f66df3e6711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/pixel_cyberpunk_interior_free_1.0.1/pixel_cyberpunk_interior_free_1.0.1/pixel-cyberpunk-interior_65.asset using Guid(21c4389007dcf8d449ab8f66df3e6711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4153b921dbeb45bdabe6f528f772ea05') in 0.040311 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/pixel_cyberpunk_interior_free_1.0.1/pixel_cyberpunk_interior_free_1.0.1/pixel-cyberpunk-interior_69.asset
+  artifactKey: Guid(643225b51788b1446bbd83db69617058) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/pixel_cyberpunk_interior_free_1.0.1/pixel_cyberpunk_interior_free_1.0.1/pixel-cyberpunk-interior_69.asset using Guid(643225b51788b1446bbd83db69617058) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9baf30df55197a09ae415bd0b565a0f') in 0.026669 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/pixel_cyberpunk_interior_free_1.0.1/pixel_cyberpunk_interior_free_1.0.1/pixel-cyberpunk-interior_67.asset
+  artifactKey: Guid(d4edfba3082e111448539648d1baa668) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/pixel_cyberpunk_interior_free_1.0.1/pixel_cyberpunk_interior_free_1.0.1/pixel-cyberpunk-interior_67.asset using Guid(d4edfba3082e111448539648d1baa668) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81461b5da093003602af9aae4582c880') in 0.034228 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/pixel_cyberpunk_interior_free_1.0.1/pixel_cyberpunk_interior_free_1.0.1/pixel-cyberpunk-interior_71.asset
+  artifactKey: Guid(c5750ff8754f16749b1557bf3f649480) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/pixel_cyberpunk_interior_free_1.0.1/pixel_cyberpunk_interior_free_1.0.1/pixel-cyberpunk-interior_71.asset using Guid(c5750ff8754f16749b1557bf3f649480) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88a82f8b1679192487c8e600b6b7c4af') in 0.029200 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.136586 seconds.
+  path: Assets/pixel_cyberpunk_interior_free_1.0.1/pixel_cyberpunk_interior_free_1.0.1/pixel-cyberpunk-interior_73.asset
+  artifactKey: Guid(2595edc0c24b76c48804f661b8cac4a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/pixel_cyberpunk_interior_free_1.0.1/pixel_cyberpunk_interior_free_1.0.1/pixel-cyberpunk-interior_73.asset using Guid(2595edc0c24b76c48804f661b8cac4a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69f6e8f89eea754e561f1ad8d848d55d') in 0.030199 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/pixel_cyberpunk_interior_free_1.0.1/pixel_cyberpunk_interior_free_1.0.1/pixel-cyberpunk-interior_79.asset
+  artifactKey: Guid(159a195857e94d545a81a8b7d5280a27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/pixel_cyberpunk_interior_free_1.0.1/pixel_cyberpunk_interior_free_1.0.1/pixel-cyberpunk-interior_79.asset using Guid(159a195857e94d545a81a8b7d5280a27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcd1b5118f35e59c674d13f8a5df6f36') in 0.032559 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/pixel_cyberpunk_interior_free_1.0.1/pixel_cyberpunk_interior_free_1.0.1/pixel-cyberpunk-interior_84.asset
+  artifactKey: Guid(2c3274dc53eb6774282430feebf21481) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/pixel_cyberpunk_interior_free_1.0.1/pixel_cyberpunk_interior_free_1.0.1/pixel-cyberpunk-interior_84.asset using Guid(2c3274dc53eb6774282430feebf21481) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da2b683f00b32ccbaf7efd9b95905dfd') in 0.023246 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/pixel_cyberpunk_interior_free_1.0.1/pixel_cyberpunk_interior_free_1.0.1/pixel-cyberpunk-interior_78.asset
+  artifactKey: Guid(7fa4646b38976c24a8d0ca04df626d72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/pixel_cyberpunk_interior_free_1.0.1/pixel_cyberpunk_interior_free_1.0.1/pixel-cyberpunk-interior_78.asset using Guid(7fa4646b38976c24a8d0ca04df626d72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a65ee898880d1c862389e31139d9cc83') in 0.031931 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/pixel_cyberpunk_interior_free_1.0.1/pixel_cyberpunk_interior_free_1.0.1/pixel-cyberpunk-interior_82.asset
+  artifactKey: Guid(1f0f59db3e9058d418d038c2eac85c29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/pixel_cyberpunk_interior_free_1.0.1/pixel_cyberpunk_interior_free_1.0.1/pixel-cyberpunk-interior_82.asset using Guid(1f0f59db3e9058d418d038c2eac85c29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4a0ecfcc75a3792068261c40012c9df') in 0.040523 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/pixel_cyberpunk_interior_free_1.0.1/pixel_cyberpunk_interior_free_1.0.1/pixel-cyberpunk-interior_80.asset
+  artifactKey: Guid(ef0c17233d6174c4fa0941b529ed63ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/pixel_cyberpunk_interior_free_1.0.1/pixel_cyberpunk_interior_free_1.0.1/pixel-cyberpunk-interior_80.asset using Guid(ef0c17233d6174c4fa0941b529ed63ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f316562562885ed055512527c20a640c') in 0.018435 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/pixel_cyberpunk_interior_free_1.0.1/pixel_cyberpunk_interior_free_1.0.1/pixel-cyberpunk-interior_76.asset
+  artifactKey: Guid(2b82583e34850d04581de4202ebbce00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/pixel_cyberpunk_interior_free_1.0.1/pixel_cyberpunk_interior_free_1.0.1/pixel-cyberpunk-interior_76.asset using Guid(2b82583e34850d04581de4202ebbce00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74abf9a41e47e29e942d01999a15dd41') in 0.028752 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/pixel_cyberpunk_interior_free_1.0.1/pixel_cyberpunk_interior_free_1.0.1/pixel-cyberpunk-interior_88.asset
+  artifactKey: Guid(adf3973ea316591458a5e2a5c305bfda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/pixel_cyberpunk_interior_free_1.0.1/pixel_cyberpunk_interior_free_1.0.1/pixel-cyberpunk-interior_88.asset using Guid(adf3973ea316591458a5e2a5c305bfda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb98186122a2ec99148ce7f36c3a9e90') in 0.031419 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 339.228795 seconds.
+  path: Assets/pixel_cyberpunk_interior_free_1.0.1/pixel_cyberpunk_interior_free_1.0.1/pixel-cyberpunk-interior_89.asset
+  artifactKey: Guid(2093df5c492898345ae01068bae4ec56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/pixel_cyberpunk_interior_free_1.0.1/pixel_cyberpunk_interior_free_1.0.1/pixel-cyberpunk-interior_89.asset using Guid(2093df5c492898345ae01068bae4ec56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd8fd89e0a944e90d36c781ec0c5b755') in 0.036501 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/pixel_cyberpunk_interior_free_1.0.1/pixel_cyberpunk_interior_free_1.0.1/pixel-cyberpunk-interior_94.asset
+  artifactKey: Guid(f92c723722a875746b3429ecb3e7503c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/pixel_cyberpunk_interior_free_1.0.1/pixel_cyberpunk_interior_free_1.0.1/pixel-cyberpunk-interior_94.asset using Guid(f92c723722a875746b3429ecb3e7503c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f817ff94e7128e151cdf1b2dff04739e') in 0.033359 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/pixel_cyberpunk_interior_free_1.0.1/pixel_cyberpunk_interior_free_1.0.1/pixel-cyberpunk-interior_95.asset
+  artifactKey: Guid(59aa654072a4baf41bba9c41303cd69e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/pixel_cyberpunk_interior_free_1.0.1/pixel_cyberpunk_interior_free_1.0.1/pixel-cyberpunk-interior_95.asset using Guid(59aa654072a4baf41bba9c41303cd69e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b38df05105d2793c1dcbab8e3a4dc4d') in 0.034088 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/pixel_cyberpunk_interior_free_1.0.1/pixel_cyberpunk_interior_free_1.0.1/pixel-cyberpunk-interior_97.asset
+  artifactKey: Guid(c577cc79ca249974bb49c26683bc1d73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/pixel_cyberpunk_interior_free_1.0.1/pixel_cyberpunk_interior_free_1.0.1/pixel-cyberpunk-interior_97.asset using Guid(c577cc79ca249974bb49c26683bc1d73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ded0fb468b513f3d1688b2efa5c7446e') in 0.033622 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/pixel_cyberpunk_interior_free_1.0.1/pixel_cyberpunk_interior_free_1.0.1/pixel-cyberpunk-interior_107.asset
+  artifactKey: Guid(60cc59438e9a3df4f83cf7de978bb5d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/pixel_cyberpunk_interior_free_1.0.1/pixel_cyberpunk_interior_free_1.0.1/pixel-cyberpunk-interior_107.asset using Guid(60cc59438e9a3df4f83cf7de978bb5d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b02f078174b610574a72e3aed295195') in 0.035672 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/pixel_cyberpunk_interior_free_1.0.1/pixel_cyberpunk_interior_free_1.0.1/pixel-cyberpunk-interior_120.asset
+  artifactKey: Guid(be008d49f453c1b45a359862c888109f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/pixel_cyberpunk_interior_free_1.0.1/pixel_cyberpunk_interior_free_1.0.1/pixel-cyberpunk-interior_120.asset using Guid(be008d49f453c1b45a359862c888109f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3eeba5a15e1bc255ed5928bd93697cf1') in 0.035307 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/pixel_cyberpunk_interior_free_1.0.1/pixel_cyberpunk_interior_free_1.0.1/pixel-cyberpunk-interior_118.asset
+  artifactKey: Guid(ff911846141e9b047bd63f55958f4fd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/pixel_cyberpunk_interior_free_1.0.1/pixel_cyberpunk_interior_free_1.0.1/pixel-cyberpunk-interior_118.asset using Guid(ff911846141e9b047bd63f55958f4fd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f23db504a34c3c87290975b96ee7f423') in 0.031659 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/pixel_cyberpunk_interior_free_1.0.1/pixel_cyberpunk_interior_free_1.0.1/pixel-cyberpunk-interior_109.asset
+  artifactKey: Guid(388a799844982444b9d27fffd76014ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/pixel_cyberpunk_interior_free_1.0.1/pixel_cyberpunk_interior_free_1.0.1/pixel-cyberpunk-interior_109.asset using Guid(388a799844982444b9d27fffd76014ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc57cbdf2fbab75b9733a4d3d16620f0') in 0.034543 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/pixel_cyberpunk_interior_free_1.0.1/pixel_cyberpunk_interior_free_1.0.1/pixel-cyberpunk-interior_111.asset
+  artifactKey: Guid(0ade26bc258041a4d92af43f809edc6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/pixel_cyberpunk_interior_free_1.0.1/pixel_cyberpunk_interior_free_1.0.1/pixel-cyberpunk-interior_111.asset using Guid(0ade26bc258041a4d92af43f809edc6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf0dde08743b32b04bfc36ba5f510746') in 0.035388 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/pixel_cyberpunk_interior_free_1.0.1/pixel_cyberpunk_interior_free_1.0.1/pixel-cyberpunk-interior_106.asset
+  artifactKey: Guid(7913de295a7d68641af4b49c3d40d79b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/pixel_cyberpunk_interior_free_1.0.1/pixel_cyberpunk_interior_free_1.0.1/pixel-cyberpunk-interior_106.asset using Guid(7913de295a7d68641af4b49c3d40d79b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23b5638f8059f1765b573d915585b02e') in 0.035255 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/pixel_cyberpunk_interior_free_1.0.1/pixel_cyberpunk_interior_free_1.0.1/pixel-cyberpunk-interior_119.asset
+  artifactKey: Guid(14becf920a1715649922f60d177104d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/pixel_cyberpunk_interior_free_1.0.1/pixel_cyberpunk_interior_free_1.0.1/pixel-cyberpunk-interior_119.asset using Guid(14becf920a1715649922f60d177104d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac0f66a8f68692936a5ecaf2c35d64bb') in 0.030010 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/pixel_cyberpunk_interior_free_1.0.1/pixel_cyberpunk_interior_free_1.0.1/pixel-cyberpunk-interior_104.asset
+  artifactKey: Guid(5cecbea0b85eec14cba94d2176f7bcb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/pixel_cyberpunk_interior_free_1.0.1/pixel_cyberpunk_interior_free_1.0.1/pixel-cyberpunk-interior_104.asset using Guid(5cecbea0b85eec14cba94d2176f7bcb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adaeb7f80bd852a915bb13eb2566a445') in 0.032512 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/pixel_cyberpunk_interior_free_1.0.1/pixel_cyberpunk_interior_free_1.0.1/pixel-cyberpunk-interior_123.asset
+  artifactKey: Guid(45ad20682ed747f478e7294ff24ae402) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/pixel_cyberpunk_interior_free_1.0.1/pixel_cyberpunk_interior_free_1.0.1/pixel-cyberpunk-interior_123.asset using Guid(45ad20682ed747f478e7294ff24ae402) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e3ad4f6b2451e41428dbcc288962e06') in 0.019683 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/pixel_cyberpunk_interior_free_1.0.1/pixel_cyberpunk_interior_free_1.0.1/pixel-cyberpunk-interior_132.asset
+  artifactKey: Guid(1d8454d9bea54724fa370c8ceccdb79b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/pixel_cyberpunk_interior_free_1.0.1/pixel_cyberpunk_interior_free_1.0.1/pixel-cyberpunk-interior_132.asset using Guid(1d8454d9bea54724fa370c8ceccdb79b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4a2718c0b7a773908ae623ac28a36ad') in 0.031756 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/pixel_cyberpunk_interior_free_1.0.1/pixel_cyberpunk_interior_free_1.0.1/pixel-cyberpunk-interior_136.asset
+  artifactKey: Guid(7448b5bf170bc3f47ae28082e48c968a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/pixel_cyberpunk_interior_free_1.0.1/pixel_cyberpunk_interior_free_1.0.1/pixel-cyberpunk-interior_136.asset using Guid(7448b5bf170bc3f47ae28082e48c968a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '653ef807e50c8f3fe54d8cf1f4d2a8ca') in 0.030418 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/pixel_cyberpunk_interior_free_1.0.1/pixel_cyberpunk_interior_free_1.0.1/pixel-cyberpunk-interior_134.asset
+  artifactKey: Guid(58c821647b0dc2a4db3dcc1a26ba1d5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/pixel_cyberpunk_interior_free_1.0.1/pixel_cyberpunk_interior_free_1.0.1/pixel-cyberpunk-interior_134.asset using Guid(58c821647b0dc2a4db3dcc1a26ba1d5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21842fbbca27b5a63e1db9986e5a7729') in 0.032340 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/pixel_cyberpunk_interior_free_1.0.1/pixel_cyberpunk_interior_free_1.0.1/pixel-cyberpunk-interior_135.asset
+  artifactKey: Guid(63574324ee5d451478326d97451d48bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/pixel_cyberpunk_interior_free_1.0.1/pixel_cyberpunk_interior_free_1.0.1/pixel-cyberpunk-interior_135.asset using Guid(63574324ee5d451478326d97451d48bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e84665dce8e611c6cc6fabb959691ce') in 0.028472 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000105 seconds.
+  path: Assets/pixel_cyberpunk_interior_free_1.0.1/pixel_cyberpunk_interior_free_1.0.1/pixel-cyberpunk-interior_122.asset
+  artifactKey: Guid(e0a8bdfef5df83a4497ef61b8c020b22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/pixel_cyberpunk_interior_free_1.0.1/pixel_cyberpunk_interior_free_1.0.1/pixel-cyberpunk-interior_122.asset using Guid(e0a8bdfef5df83a4497ef61b8c020b22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2459f7a1539064d9dbfb8dc7afd741ca') in 0.029374 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/pixel_cyberpunk_interior_free_1.0.1/pixel_cyberpunk_interior_free_1.0.1/pixel-cyberpunk-interior_91.asset
+  artifactKey: Guid(6515dd7e2a7b01e43ab9337725bd9de4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/pixel_cyberpunk_interior_free_1.0.1/pixel_cyberpunk_interior_free_1.0.1/pixel-cyberpunk-interior_91.asset using Guid(6515dd7e2a7b01e43ab9337725bd9de4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '418c24581000384a70837f930b9a21bc') in 0.028890 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/pixel_cyberpunk_interior_free_1.0.1/pixel_cyberpunk_interior_free_1.0.1/pixel-cyberpunk-interior_112.asset
+  artifactKey: Guid(3031b9093390693458b0b5493db44053) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/pixel_cyberpunk_interior_free_1.0.1/pixel_cyberpunk_interior_free_1.0.1/pixel-cyberpunk-interior_112.asset using Guid(3031b9093390693458b0b5493db44053) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8b20aba5c4514e01b3eda4ac8f2f929') in 0.035245 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/pixel_cyberpunk_interior_free_1.0.1/pixel_cyberpunk_interior_free_1.0.1/pixel-cyberpunk-interior_96.asset
+  artifactKey: Guid(fc73d083767139849a49046829833817) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/pixel_cyberpunk_interior_free_1.0.1/pixel_cyberpunk_interior_free_1.0.1/pixel-cyberpunk-interior_96.asset using Guid(fc73d083767139849a49046829833817) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85dd76c8617bc6cd56e6970fdfc39d23') in 0.030760 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/pixel_cyberpunk_interior_free_1.0.1/pixel_cyberpunk_interior_free_1.0.1/pixel-cyberpunk-interior_110.asset
+  artifactKey: Guid(25b1096649373f74b8dd9c615439976f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/pixel_cyberpunk_interior_free_1.0.1/pixel_cyberpunk_interior_free_1.0.1/pixel-cyberpunk-interior_110.asset using Guid(25b1096649373f74b8dd9c615439976f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b945f93764aa031b37a37d3eb259f82e') in 0.032589 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/pixel_cyberpunk_interior_free_1.0.1/pixel_cyberpunk_interior_free_1.0.1/pixel-cyberpunk-interior_139.asset
+  artifactKey: Guid(36a5a8e045987f3468dc68946ffd86cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/pixel_cyberpunk_interior_free_1.0.1/pixel_cyberpunk_interior_free_1.0.1/pixel-cyberpunk-interior_139.asset using Guid(36a5a8e045987f3468dc68946ffd86cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09e005ad751b67279d05336915e8ff0c') in 0.034764 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/pixel_cyberpunk_interior_free_1.0.1/pixel_cyberpunk_interior_free_1.0.1/pixel-cyberpunk-interior_138.asset
+  artifactKey: Guid(debac218d8638144db2f37d6c2570799) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/pixel_cyberpunk_interior_free_1.0.1/pixel_cyberpunk_interior_free_1.0.1/pixel-cyberpunk-interior_138.asset using Guid(debac218d8638144db2f37d6c2570799) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f62a874d0a49ea6eea3882296d8b56cc') in 0.035907 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/pixel_cyberpunk_interior_free_1.0.1/pixel_cyberpunk_interior_free_1.0.1/pixel-cyberpunk-interior_149.asset
+  artifactKey: Guid(7aca6bbb4196ac84c8f3421c5d434847) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/pixel_cyberpunk_interior_free_1.0.1/pixel_cyberpunk_interior_free_1.0.1/pixel-cyberpunk-interior_149.asset using Guid(7aca6bbb4196ac84c8f3421c5d434847) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3f23a7dc280aa688c9c953e1d866053') in 0.033666 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/pixel_cyberpunk_interior_free_1.0.1/pixel_cyberpunk_interior_free_1.0.1/pixel-cyberpunk-interior_140.asset
+  artifactKey: Guid(648d209d88689264aaacb861fc9bb350) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/pixel_cyberpunk_interior_free_1.0.1/pixel_cyberpunk_interior_free_1.0.1/pixel-cyberpunk-interior_140.asset using Guid(648d209d88689264aaacb861fc9bb350) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a960927da5679bd4a0074d59904b4cd') in 0.039203 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/pixel_cyberpunk_interior_free_1.0.1/pixel_cyberpunk_interior_free_1.0.1/pixel-cyberpunk-interior_148.asset
+  artifactKey: Guid(1764eee74b50f0e44b407423bb8e0373) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/pixel_cyberpunk_interior_free_1.0.1/pixel_cyberpunk_interior_free_1.0.1/pixel-cyberpunk-interior_148.asset using Guid(1764eee74b50f0e44b407423bb8e0373) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3a9e70fb39aa4396fd20c2ac4619d69') in 0.028668 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/pixel_cyberpunk_interior_free_1.0.1/pixel_cyberpunk_interior_free_1.0.1/pixel-cyberpunk-interior_145.asset
+  artifactKey: Guid(b08caf80115668b4eb150232ba493b1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/pixel_cyberpunk_interior_free_1.0.1/pixel_cyberpunk_interior_free_1.0.1/pixel-cyberpunk-interior_145.asset using Guid(b08caf80115668b4eb150232ba493b1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8a714c5691a3fe792af11aa326ea198') in 0.030342 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/pixel_cyberpunk_interior_free_1.0.1/pixel_cyberpunk_interior_free_1.0.1/pixel-cyberpunk-interior_141.asset
+  artifactKey: Guid(12246ae5d3dafb044a16133a1b8039e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/pixel_cyberpunk_interior_free_1.0.1/pixel_cyberpunk_interior_free_1.0.1/pixel-cyberpunk-interior_141.asset using Guid(12246ae5d3dafb044a16133a1b8039e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55532740999d2735179938ba27dcc9de') in 0.032873 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/pixel_cyberpunk_interior_free_1.0.1/pixel_cyberpunk_interior_free_1.0.1/pixel-cyberpunk-interior_147.asset
+  artifactKey: Guid(3470a53099c3bc4478314e6f3af456b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/pixel_cyberpunk_interior_free_1.0.1/pixel_cyberpunk_interior_free_1.0.1/pixel-cyberpunk-interior_147.asset using Guid(3470a53099c3bc4478314e6f3af456b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48c782403dcf9652599c57350e3e376a') in 0.031270 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/pixel_cyberpunk_interior_free_1.0.1/pixel_cyberpunk_interior_free_1.0.1/pixel-cyberpunk-interior_121.asset
+  artifactKey: Guid(19c6d8580a3cace45813e28eda144728) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/pixel_cyberpunk_interior_free_1.0.1/pixel_cyberpunk_interior_free_1.0.1/pixel-cyberpunk-interior_121.asset using Guid(19c6d8580a3cace45813e28eda144728) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '622dc4342b25be6ea9654a86fd734b6c') in 0.031049 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/pixel_cyberpunk_interior_free_1.0.1/pixel_cyberpunk_interior_free_1.0.1/pixel-cyberpunk-interior_130.asset
+  artifactKey: Guid(908d3956aab17494eae725b26a2a42ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/pixel_cyberpunk_interior_free_1.0.1/pixel_cyberpunk_interior_free_1.0.1/pixel-cyberpunk-interior_130.asset using Guid(908d3956aab17494eae725b26a2a42ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2015d943e6724a4284ff33cdfdab21b') in 0.029782 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/pixel_cyberpunk_interior_free_1.0.1/pixel_cyberpunk_interior_free_1.0.1/pixel-cyberpunk-interior_131.asset
+  artifactKey: Guid(a34fff8b6d419654bad02357f26af3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/pixel_cyberpunk_interior_free_1.0.1/pixel_cyberpunk_interior_free_1.0.1/pixel-cyberpunk-interior_131.asset using Guid(a34fff8b6d419654bad02357f26af3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4eea1ea0e1cbc1611737797d3114d32f') in 0.041552 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/pixel_cyberpunk_interior_free_1.0.1/pixel_cyberpunk_interior_free_1.0.1/pixel-cyberpunk-interior_100.asset
+  artifactKey: Guid(57a522f2c591eaa4b8bbcac66888c20b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/pixel_cyberpunk_interior_free_1.0.1/pixel_cyberpunk_interior_free_1.0.1/pixel-cyberpunk-interior_100.asset using Guid(57a522f2c591eaa4b8bbcac66888c20b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51174b0e45c73170562c725ec889c974') in 0.032307 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/pixel_cyberpunk_interior_free_1.0.1/pixel_cyberpunk_interior_free_1.0.1/pixel-cyberpunk-interior_137.asset
+  artifactKey: Guid(04ae8170dda7ebc44a4396354dae5ae6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/pixel_cyberpunk_interior_free_1.0.1/pixel_cyberpunk_interior_free_1.0.1/pixel-cyberpunk-interior_137.asset using Guid(04ae8170dda7ebc44a4396354dae5ae6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eedef3e9a5a4125f02cee0c78d526a3c') in 0.036495 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
