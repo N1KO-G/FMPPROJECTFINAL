@@ -16,9 +16,12 @@ public class playermovement : MonoBehaviour
     bool isDashing;
     bool canDash;
 
+    private Animator animator;
+
     private void Start()
     {
         canDash = true;
+        animator = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -39,11 +42,22 @@ public class playermovement : MonoBehaviour
 
     void FixedUpdate()
     {
+
+        
          if (isDashing)
         {
             return;
         }
         Move();
+
+        if (Walkchecker())
+        {
+        animator.SetBool("IsWalking",Walkchecker());
+        }
+        else
+        {
+            animator.SetBool("IsWalking",false);
+        }
     }
 
     void ProcessInputs()
@@ -52,12 +66,19 @@ public class playermovement : MonoBehaviour
         float moveY = Input.GetAxisRaw("Vertical");
 
         moveDirection = new Vector2(moveX, moveY).normalized;
-
+        if (moveDirection != Vector2.zero)
+        {
+             animator.SetFloat("Xinput", moveDirection.x);
+            animator.SetFloat("Yinput", moveDirection.y);
+        }
+        
     }
 
     void Move()
     {
         rb.velocity = new Vector2(moveDirection.x * movespeed, moveDirection.y * movespeed);
+
+    
     }
 
     private IEnumerator dash()
@@ -70,5 +91,14 @@ public class playermovement : MonoBehaviour
 
         yield return new WaitForSeconds(dashcooldown);
         canDash = true;
+    }
+
+    private bool Walkchecker()
+    {
+        if (moveDirection.x != 0 || moveDirection.y != 0)
+        {
+            return true;
+        }
+        else return false;
     }
 }
