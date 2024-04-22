@@ -17,4 +17,11 @@ public class homingbullets : MonoBehaviour
     {
         transform.position = Vector2.MoveTowards(transform.position,player.position, speed * Time.deltaTime);
     }
+
+    void OnCollisionEnter2D(Collision2D collision)
+    {
+        
+            Destroy(this.gameObject);
+        
+    }
 }

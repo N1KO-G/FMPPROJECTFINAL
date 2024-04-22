@@ -17,5 +17,17 @@ public class bulletscript : MonoBehaviour
         Destroy(this.gameObject, 2);
     }
 
+    void OnCollisionEnter2D(Collision2D collision)
+    {
+        
+            Destroy(this.gameObject);
+        
+    }
+
+   
+
+
+
+
  
 }
