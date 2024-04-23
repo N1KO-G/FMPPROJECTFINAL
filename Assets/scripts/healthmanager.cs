@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -5,26 +6,31 @@ using UnityEngine.SceneManagement;
 
 public class healthmanager : MonoBehaviour
 {
-
+    public static event Action OnPlayerDamaged;
     public float health, maxhealth;
    
    void Start()
    {
-        health = maxhealth;
+        
    }
    
 
    void Death()
    {
-    if (health <= 0)
-    {
-        SceneManager.LoadScene(0);
-    } 
+    
    }
    
    
-   void TakeDamage()
+ public void TakeDamage(float amount)
    {
-    
+        health -= amount;
+        OnPlayerDamaged?.Invoke();
+
+        if (health <= 0)
+    {
+        health = 0;
+        Debug.Log("Death");
+        SceneManager.LoadScene(0);
+    } 
    }
 }

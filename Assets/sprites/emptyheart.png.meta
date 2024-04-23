@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 6f75392498305444298cde45f10bec1a
+guid: 1ba55594d86956646b2470a74d8f26f5
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -162,7 +162,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: half heart_0
+      name: emptyheart_0
       rect:
         serializedVersion: 2
         x: 7
@@ -176,8 +176,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e841fce3efcf4074bb1fb50c8d4a111a
-      internalID: -446742993
+      spriteID: c94629f1d678a374c9b32987455b8708
+      internalID: 596005001
       vertices: []
       indices: 
       edges: []
@@ -193,7 +193,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      half heart_0: -446742993
+      emptyheart_0: 596005001
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class healthheart : MonoBehaviour
 {
-  public Sprite fullheart, halfheart;
+  public Sprite fullheart, halfheart, emptyheart;
     Image heartImage;
 
     private void Awake()
@@ -22,6 +22,8 @@ public class healthheart : MonoBehaviour
             break;
             case HeartStatus.half:
             heartImage.sprite = halfheart; break;
+            case HeartStatus.empty:
+            heartImage.sprite = emptyheart; break;
         }
     }
 
@@ -29,7 +31,8 @@ public class healthheart : MonoBehaviour
 
 public enum HeartStatus
 {
-    full = 0,
-    half = 1
+    empty = 0,
+    half = 1,
+    full = 2,
 
 }

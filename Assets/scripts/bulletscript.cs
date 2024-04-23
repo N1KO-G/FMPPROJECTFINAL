@@ -19,6 +19,11 @@ public class bulletscript : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D collision)
     {
+
+        if (collision.gameObject.CompareTag("Player"))
+        {
+            collision.gameObject.GetComponent<healthmanager>().TakeDamage(1);
+        }
         
             Destroy(this.gameObject);
         

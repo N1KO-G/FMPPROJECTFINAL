@@ -8,6 +8,22 @@ public class healthheartbar : MonoBehaviour
     public healthmanager Healthmanager;
     List<healthheart> hearts = new List<healthheart>();
 
+    private void OnEnable()
+    {
+        healthmanager.OnPlayerDamaged += DrawHearts;
+    }
+
+     private void OnDisable()
+    {
+        healthmanager.OnPlayerDamaged -= DrawHearts;
+    }
+
+    void Start()
+    {
+        DrawHearts();
+    }
+
+
 
     public void DrawHearts()
     {
@@ -15,6 +31,16 @@ public class healthheartbar : MonoBehaviour
 
         float maxhealthRemainder = Healthmanager.maxhealth % 2;
         int heartstomake = (int)(Healthmanager.maxhealth / 2 + maxhealthRemainder);
+        for (int i = 0; i < heartstomake; i++)
+        {
+            CreateHeart();
+        }
+
+        for(int i = 0; i < hearts.Count; i++)
+        {
+            int heartStatusRemainder =(int)Mathf.Clamp(Healthmanager.health - (i*2), 0, 2);
+            hearts[i].SetHeartImage((HeartStatus)heartStatusRemainder);
+        }
     }
     public void CreateHeart()
     {
