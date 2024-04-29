@@ -1,11 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Rendering;
 
 public class playermovement : MonoBehaviour
 {
     public float movespeed;
     public Rigidbody2D rb;
+    public Weapon weapon;
 
     private Vector2 moveDirection;
 
@@ -38,6 +40,13 @@ public class playermovement : MonoBehaviour
         }
 
         ProcessInputs();
+
+        if(Input.GetMouseButtonDown(0))
+        {
+            weapon.Fire();
+        }
+
+        
     }
 
     void FixedUpdate()

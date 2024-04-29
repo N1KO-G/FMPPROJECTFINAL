@@ -11,6 +11,7 @@ public class PlayerAimWeapon : MonoBehaviour
     private Transform aimTransform;
     private Animator aimAnimator;
     private Transform aimgunEndPointTransform;
+    
 
     public event EventHandler<OnShootEventArgs> OnShoot;
     public class OnShootEventArgs : EventArgs {
@@ -27,7 +28,10 @@ private void Update()
     {
         if(Input.GetMouseButtonDown(0))
         {
+
             Vector3 mousePosition = UtilsClass.GetMouseWorldPosition();
+            
+            
 
             aimAnimator.Play("AimShoot_Shoot", 0, 0.1f);
 

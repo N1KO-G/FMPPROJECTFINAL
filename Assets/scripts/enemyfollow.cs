@@ -7,6 +7,8 @@ using UnityEngine.Rendering;
 
 public class enemyfollow : MonoBehaviour
 {
+    public float health, maxhealth;
+
     NavMeshAgent agent;
 
     public float speed;
@@ -17,12 +19,15 @@ public class enemyfollow : MonoBehaviour
     private Transform player;
     private float NextFireTime;
     public float fireRate = 1f;
+
+    
     // Start is called before the first frame update
     void Start()
     {
         agent = GetComponent<NavMeshAgent>();
         agent.updateRotation = false;
         agent.updateUpAxis = false;
+        
         player = GameObject.FindGameObjectWithTag("Player").transform;
     }
 
@@ -46,5 +51,16 @@ public class enemyfollow : MonoBehaviour
         Gizmos.color = Color.green;
         Gizmos.DrawWireSphere(transform.position, lineOfSite);
         Gizmos.DrawWireSphere(transform.position, shootingRange);
+    }
+
+    public void TakeDamage(float playeramount)
+    {
+        health -= playeramount;
+
+        if (health == 0)
+        {
+            health = 0;
+            Destroy(gameObject);
+        }
     }
 }
