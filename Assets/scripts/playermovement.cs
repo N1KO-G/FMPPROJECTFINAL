@@ -100,6 +100,11 @@ public class playermovement : MonoBehaviour
 
         yield return new WaitForSeconds(dashcooldown);
         canDash = true;
+
+        if (isDashing)
+        {
+            gameObject.GetComponent<healthmanager>().TakeDamage(0);
+        }
     }
 
     private bool Walkchecker()

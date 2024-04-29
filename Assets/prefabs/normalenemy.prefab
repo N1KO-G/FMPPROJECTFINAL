@@ -132,7 +132,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 0.0001
+  m_Mass: 50
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 0
@@ -163,7 +163,7 @@ MonoBehaviour:
   maxhealth: 0
   speed: 5
   lineOfSite: 6.8
-  shootingRange: 5.71
+  shootingRange: 2.97
   bullet: {fileID: 3338178258178595244, guid: 00e16e4129960384b8b2dc7f7b130d68, type: 3}
   bulletParent: {fileID: 1451225891484235375}
   fireRate: 1
