@@ -131,8 +131,8 @@ MonoBehaviour:
   health: 5
   maxhealth: 0
   speed: 5
-  lineOfSite: 8.48
-  shootingRange: 6.42
+  lineOfSite: 6.8
+  shootingRange: 2.97
   bullet: {fileID: 2729664687724937722, guid: 7015fb5edd2c43c4183ed7bcc04dd48e, type: 3}
   bulletParent: {fileID: 4396551394948098476}
   fireRate: 1
@@ -228,7 +228,7 @@ Transform:
   m_GameObject: {fileID: 4396551394948098476}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.15, y: -0.21, z: 0}
+  m_LocalPosition: {x: 0.73, y: -0.21, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

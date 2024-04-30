@@ -1,16 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
-using UnityEditor.ShaderKeywordFilter;
 using UnityEngine;
 using UnityEngine.AI;
 using UnityEngine.Rendering;
 
 public class enemyfollow : MonoBehaviour
 {
-    public float health, maxhealth;
-
     NavMeshAgent agent;
-
+    public float health = 5f;
     public float speed;
     public float lineOfSite;
     public float shootingRange;
@@ -19,8 +16,6 @@ public class enemyfollow : MonoBehaviour
     private Transform player;
     private float NextFireTime;
     public float fireRate = 1f;
-
-    
     // Start is called before the first frame update
     void Start()
     {
@@ -63,4 +58,6 @@ public class enemyfollow : MonoBehaviour
             Destroy(gameObject);
         }
     }
+
+
 }

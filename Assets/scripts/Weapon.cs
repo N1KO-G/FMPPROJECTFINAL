@@ -14,6 +14,8 @@ public class Weapon : MonoBehaviour
     public bool Canfire;
     public float shootcooldown = 0.2f;
 
+    public bool FacingRight = true;
+
     public void update()
     {
         shootcooldown -= Time.deltaTime;
@@ -34,21 +36,30 @@ public class Weapon : MonoBehaviour
         
     }
 
-    // public void rotation()
-    // {
-        // if(aim.transform.rotation.eulerAngles.z < 90  || aim.transform.rotation.eulerAngles.z < -90)
-        // {
-            // guntip.transform.rotation = Quaternion.Euler(guntip.transform.rotation.x, guntip.transform.rotation.y, guntip.transform.rotation.z * -1);
-            // weapon.transform.localScale  = new Vector3(weapon.transform.localScale.x,weapon.transform.localScale.y * -1 ,weapon.transform.localScale.z);
-// 
-        // }
-        // 
-    // }
+      public void rotation()
+      {
+      Debug.Log(guntip.transform.rotation);
+       if(aim.transform.rotation.eulerAngles.z > 90  && aim.transform.rotation.eulerAngles.z < 270 && FacingRight)
+      {
+        guntip.transform.Rotate(0, 0, 180);
+        weapon.transform.localScale  = new Vector3(weapon.transform.localScale.x,weapon.transform.localScale.y * -1 ,weapon.transform.localScale.z);
+        FacingRight = false;
+      }
+      if(aim.transform.rotation.eulerAngles.z < 90  && aim.transform.rotation.eulerAngles.z < 270 && !FacingRight || aim.transform.rotation.eulerAngles.z > 90  && aim.transform.rotation.eulerAngles.z > 270 && !FacingRight)
+      {
+        guntip.transform.Rotate(0, 0, 180);
+        weapon.transform.localScale  = new Vector3(weapon.transform.localScale.x,weapon.transform.localScale.y * -1 ,weapon.transform.localScale.z);
+        FacingRight = true;
+      }
+        
+    }
 
-    // void Update()
-    //{
-     //   rotation();
-    //}
+
+
+     void Update()
+    {
+        rotation();
+    }
   
 
 }
