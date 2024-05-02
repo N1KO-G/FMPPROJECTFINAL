@@ -11,6 +11,7 @@ public class Weapon : MonoBehaviour
     public Transform guntip;
     public GameObject aim;
     public GameObject weapon;
+    
     public bool Canfire;
     public float shootcooldown = 0.2f;
 
@@ -44,6 +45,7 @@ public class Weapon : MonoBehaviour
         guntip.transform.Rotate(0, 0, 180);
         weapon.transform.localScale  = new Vector3(weapon.transform.localScale.x,weapon.transform.localScale.y * -1 ,weapon.transform.localScale.z);
         FacingRight = false;
+        
       }
       if(aim.transform.rotation.eulerAngles.z < 90  && aim.transform.rotation.eulerAngles.z < 270 && !FacingRight || aim.transform.rotation.eulerAngles.z > 90  && aim.transform.rotation.eulerAngles.z > 270 && !FacingRight)
       {
