@@ -9,16 +9,7 @@ public class healthmanager : MonoBehaviour
     public static event Action OnPlayerDamaged;
     public float health, maxhealth;
    
-   void Start()
-   {
-        
-   }
-   
 
-   void Death()
-   {
-    
-   }
    
    
  public void TakeDamage(float amount)

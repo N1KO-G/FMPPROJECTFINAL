@@ -39,7 +39,7 @@ public class Weapon : MonoBehaviour
 
       public void rotation()
       {
-      Debug.Log(guntip.transform.rotation);
+      
        if(aim.transform.rotation.eulerAngles.z > 90  && aim.transform.rotation.eulerAngles.z < 270 && FacingRight)
       {
         guntip.transform.Rotate(0, 0, 180);

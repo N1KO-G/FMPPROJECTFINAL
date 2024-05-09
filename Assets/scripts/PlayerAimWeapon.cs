@@ -22,7 +22,6 @@ public class PlayerAimWeapon : MonoBehaviour
 private void Update()
 {
     HandleAiming();
-    HandleShooting();
 }
     private void HandleShooting()
     {

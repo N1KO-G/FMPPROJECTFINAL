@@ -15,7 +15,7 @@ D:/rpg game/FMPPROJECTFINAL
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-65136
+58296
 Successfully changed project path to: D:/rpg game/FMPPROJECTFINAL
 D:/rpg game/FMPPROJECTFINAL
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ D:/rpg game/FMPPROJECTFINAL
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [43096] Host "[IP] 192.168.0.8 [Port] 0 [Flags] 2 [Guid] 2185045409 [EditorId] 2185045409 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-NV0VSBH) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [46580] Host "[IP] 192.168.0.8 [Port] 0 [Flags] 2 [Guid] 1673794380 [EditorId] 1673794380 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-NV0VSBH) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [43096] Host "[IP] 192.168.0.8 [Port] 0 [Flags] 2 [Guid] 2185045409 [EditorId] 2185045409 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-NV0VSBH) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [46580] Host "[IP] 192.168.0.8 [Port] 0 [Flags] 2 [Guid] 1673794380 [EditorId] 1673794380 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-NV0VSBH) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
-Refreshing native plugins compatible for Editor in 20.04 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 364.83 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.20f1 (61c2feb0970d)
 [Subsystems] Discovering subsystems at path D:/unityeditor/2022.3.20f1/Editor/Data/Resources/UnitySubsystems
@@ -70,46 +70,46 @@ Initialize mono
 Mono path[0] = 'D:/unityeditor/2022.3.20f1/Editor/Data/Managed'
 Mono path[1] = 'D:/unityeditor/2022.3.20f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'D:/unityeditor/2022.3.20f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56376
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56524
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/unityeditor/2022.3.20f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: D:/unityeditor/2022.3.20f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.007831 seconds.
-- Loaded All Assemblies, in  0.476 seconds
+Registered in 0.168283 seconds.
+- Loaded All Assemblies, in  2.829 seconds
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.308 seconds
-Domain Reload Profiling: 783ms
-	BeginReloadAssembly (147ms)
+- Finished resetting the current domain, in  0.321 seconds
+Domain Reload Profiling: 3151ms
+	BeginReloadAssembly (2094ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (43ms)
+	RebuildCommonClasses (46ms)
 	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (69ms)
-	LoadAllAssembliesAndSetupDomain (203ms)
-		LoadAssemblies (148ms)
+	initialDomainReloadingComplete (232ms)
+	LoadAllAssembliesAndSetupDomain (443ms)
+		LoadAssemblies (2094ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (199ms)
-			TypeCache.Refresh (197ms)
-				TypeCache.ScanAssembly (181ms)
+		AnalyzeDomain (440ms)
+			TypeCache.Refresh (438ms)
+				TypeCache.ScanAssembly (420ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (308ms)
+	FinalizeReload (322ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (243ms)
+		SetupLoadedEditorAssemblies (261ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (10ms)
-			SetLoadedEditorAssemblies (6ms)
+			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (173ms)
-			ProcessInitializeOnLoadMethodAttributes (52ms)
+			ProcessInitializeOnLoadAttributes (180ms)
+			ProcessInitializeOnLoadMethodAttributes (63ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -117,8 +117,8 @@ Domain Reload Profiling: 783ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.934 seconds
-Refreshing native plugins compatible for Editor in 8.18 ms, found 4 plugins.
+- Loaded All Assemblies, in  3.381 seconds
+Refreshing native plugins compatible for Editor in 7.87 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Package Manager log level set to [2]
@@ -126,47 +126,47 @@ Package Manager log level set to [2]
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.851 seconds
-Domain Reload Profiling: 1785ms
-	BeginReloadAssembly (207ms)
+- Finished resetting the current domain, in  0.885 seconds
+Domain Reload Profiling: 4265ms
+	BeginReloadAssembly (220ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (6ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (28ms)
-	RebuildCommonClasses (47ms)
-	RebuildNativeTypeToScriptingClass (12ms)
+	RebuildCommonClasses (41ms)
+	RebuildNativeTypeToScriptingClass (13ms)
 	initialDomainReloadingComplete (45ms)
-	LoadAllAssembliesAndSetupDomain (622ms)
-		LoadAssemblies (493ms)
+	LoadAllAssembliesAndSetupDomain (3061ms)
+		LoadAssemblies (2838ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (266ms)
-			TypeCache.Refresh (218ms)
-				TypeCache.ScanAssembly (197ms)
-			ScanForSourceGeneratedMonoScriptInfo (36ms)
-			ResolveRequiredComponents (11ms)
-	FinalizeReload (852ms)
+		AnalyzeDomain (359ms)
+			TypeCache.Refresh (314ms)
+				TypeCache.ScanAssembly (269ms)
+			ScanForSourceGeneratedMonoScriptInfo (34ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (885ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (640ms)
+		SetupLoadedEditorAssemblies (683ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (6ms)
-			SetLoadedEditorAssemblies (5ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (6ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (96ms)
-			ProcessInitializeOnLoadAttributes (424ms)
-			ProcessInitializeOnLoadMethodAttributes (105ms)
-			AfterProcessingInitializeOnLoad (4ms)
+			BeforeProcessingInitializeOnLoad (93ms)
+			ProcessInitializeOnLoadAttributes (470ms)
+			ProcessInitializeOnLoadMethodAttributes (104ms)
+			AfterProcessingInitializeOnLoad (5ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (9ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 7.94 ms, found 4 plugins.
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.16 seconds
+Refreshing native plugins compatible for Editor in 7.90 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 6009 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 99 unused Assets / (423.4 KB). Loaded Objects now: 6467.
+Unloading 99 unused Assets / (424.3 KB). Loaded Objects now: 6467.
 Memory consumption went from 232.9 MB to 232.5 MB.
-Total: 9.757000 ms (FindLiveObjects: 2.585100 ms CreateObjectMapping: 0.980700 ms MarkObjects: 5.885400 ms  DeleteObjects: 0.304300 ms)
+Total: 5.402600 ms (FindLiveObjects: 0.929800 ms CreateObjectMapping: 0.226900 ms MarkObjects: 3.807700 ms  DeleteObjects: 0.436400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -183,153 +183,129 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 853707.687836 seconds.
-  path: Assets/ENEMYSPRITES/enemy2movefront.png
-  artifactKey: Guid(08ab99d28a033744d919415956666ef8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ENEMYSPRITES/enemy2movefront.png using Guid(08ab99d28a033744d919415956666ef8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9643c97e74d7aa54b69eb28fc55995c') in 0.129206 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 1502.333765 seconds.
-  path: Assets/ENEMYSPRITES/enemy2rightidle.png
-  artifactKey: Guid(71c61b7fcc2bff9499bac3f5220d634f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ENEMYSPRITES/enemy2rightidle.png using Guid(71c61b7fcc2bff9499bac3f5220d634f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31f8ad1f309bb70c04ca7eac751a0552') in 0.043165 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 4.603704 seconds.
-  path: Assets/ENEMYSPRITES/enemy2leftidle.png
-  artifactKey: Guid(363c921d23a57ee4aac7eadbe70a2f21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ENEMYSPRITES/enemy2leftidle.png using Guid(363c921d23a57ee4aac7eadbe70a2f21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3d6b96753be5612c8323e44ca8de7c1') in 0.024922 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 6623.868425 seconds.
-  path: Assets/ENEMYSPRITES/enemy2rightwalk.png
-  artifactKey: Guid(4ddd150130ee72548896f401e17d5ce8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ENEMYSPRITES/enemy2rightwalk.png using Guid(4ddd150130ee72548896f401e17d5ce8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7ec53493d2f36c5ec7dc2af6b2d9244') in 0.154443 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 9.562866 seconds.
-  path: Assets/ENEMYSPRITES/enemy2leftwalk.png
-  artifactKey: Guid(e233722578a339c40941ec9f234fdd74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ENEMYSPRITES/enemy2leftwalk.png using Guid(e233722578a339c40941ec9f234fdd74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af342041a9ad0c690b40ee4231d085fc') in 0.056425 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 46.286140 seconds.
-  path: Assets/ENEMYSPRITES/enemy2idleback.png
-  artifactKey: Guid(b5e2a504c522498419ecf682364b8c36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ENEMYSPRITES/enemy2idleback.png using Guid(b5e2a504c522498419ecf682364b8c36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b69b6ff8abe2fef0fe85039364f977ed') in 0.026670 seconds
+  Time since last request: 933275.740886 seconds.
+  path: Assets/ENEMYSPRITES/enemy3backmove.png
+  artifactKey: Guid(3361e1706df02c7449ba8eeae30a4180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ENEMYSPRITES/enemy3backmove.png using Guid(3361e1706df02c7449ba8eeae30a4180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4f7d5395a01bb612583896f882d6090') in 0.147962 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 6.830955 seconds.
-  path: Assets/ENEMYSPRITES/enemy2idleback.png
-  artifactKey: Guid(b5e2a504c522498419ecf682364b8c36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ENEMYSPRITES/enemy2idleback.png using Guid(b5e2a504c522498419ecf682364b8c36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7d8a27b03b761ecc05103055c394125') in 0.023248 seconds
+  Time since last request: 0.000054 seconds.
+  path: Assets/ENEMYSPRITES/enemy3backidle.png
+  artifactKey: Guid(c2e2288f8304f6349a7c29579e0f696d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ENEMYSPRITES/enemy3backidle.png using Guid(c2e2288f8304f6349a7c29579e0f696d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdd9b8f5394d850d4c245bd1175f789d') in 0.066919 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 4
 ========================================================================
 Received Import Request.
-  Time since last request: 15.228173 seconds.
-  path: Assets/ENEMYSPRITES/enemy2leftidle.png
-  artifactKey: Guid(363c921d23a57ee4aac7eadbe70a2f21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ENEMYSPRITES/enemy2leftidle.png using Guid(363c921d23a57ee4aac7eadbe70a2f21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8dbc15589daf191ba3bbf6dab39e159') in 0.026294 seconds
+  Time since last request: 0.000022 seconds.
+  path: Assets/ENEMYSPRITES/enemy3sideidle.png
+  artifactKey: Guid(2b056fe89b8e37c4d9cd84807a7160e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ENEMYSPRITES/enemy3sideidle.png using Guid(2b056fe89b8e37c4d9cd84807a7160e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff8448b5a9c25e09d7f57f5a2a08b744') in 0.021980 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000468 seconds.
+  path: Assets/ENEMYSPRITES/enemy3rightmove.png
+  artifactKey: Guid(25166fe52e501034ba4908ccd622475e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ENEMYSPRITES/enemy3rightmove.png using Guid(25166fe52e501034ba4908ccd622475e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05c17046c169ddac70be9186e65ce155') in 0.025932 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 6.327286 seconds.
+  path: Assets/ENEMYSPRITES/enemy3backmove.png
+  artifactKey: Guid(3361e1706df02c7449ba8eeae30a4180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ENEMYSPRITES/enemy3backmove.png using Guid(3361e1706df02c7449ba8eeae30a4180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5908284591491293c24ce2808bcb82b6') in 0.027670 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 12.607729 seconds.
+  path: Assets/ENEMYSPRITES/enemy3frontidle.png
+  artifactKey: Guid(2b43b6f345106b544b6f3c209f7e5a50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ENEMYSPRITES/enemy3frontidle.png using Guid(2b43b6f345106b544b6f3c209f7e5a50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c444c2149f4450b46fda79031638275c') in 0.019681 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 4.660281 seconds.
-  path: Assets/ENEMYSPRITES/enemy2leftidle.png
-  artifactKey: Guid(363c921d23a57ee4aac7eadbe70a2f21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ENEMYSPRITES/enemy2leftidle.png using Guid(363c921d23a57ee4aac7eadbe70a2f21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df1f808ee9c11fde010b9b99e338e256') in 0.027554 seconds
+  Time since last request: 5.585339 seconds.
+  path: Assets/ENEMYSPRITES/enemy3frontidle.png
+  artifactKey: Guid(2b43b6f345106b544b6f3c209f7e5a50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ENEMYSPRITES/enemy3frontidle.png using Guid(2b43b6f345106b544b6f3c209f7e5a50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07071c84737f99b27501358c8cea8e36') in 0.027932 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 4
 ========================================================================
 Received Import Request.
-  Time since last request: 9.445566 seconds.
-  path: Assets/ENEMYSPRITES/enemy2leftwalk.png
-  artifactKey: Guid(e233722578a339c40941ec9f234fdd74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ENEMYSPRITES/enemy2leftwalk.png using Guid(e233722578a339c40941ec9f234fdd74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86f1643acbb981c78215e0e9dd4d662e') in 0.934097 seconds
+  Time since last request: 15.999886 seconds.
+  path: Assets/ENEMYSPRITES/enemy3frontmove.png
+  artifactKey: Guid(ec94fe11d323f234daa29e85918ab27a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ENEMYSPRITES/enemy3frontmove.png using Guid(ec94fe11d323f234daa29e85918ab27a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b96ad86539c5d62ec1cf6a9baaa9893') in 0.026013 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 4.485507 seconds.
-  path: Assets/ENEMYSPRITES/enemy2leftwalk.png
-  artifactKey: Guid(e233722578a339c40941ec9f234fdd74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ENEMYSPRITES/enemy2leftwalk.png using Guid(e233722578a339c40941ec9f234fdd74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5056c9dd3555fa48f8bbb516445ae7f5') in 0.027037 seconds
+  Time since last request: 6.310103 seconds.
+  path: Assets/ENEMYSPRITES/enemy3frontmove.png
+  artifactKey: Guid(ec94fe11d323f234daa29e85918ab27a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ENEMYSPRITES/enemy3frontmove.png using Guid(ec94fe11d323f234daa29e85918ab27a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f8edeb58c5104184d4bdadae737ae36') in 0.134720 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
+Number of asset objects unloaded after import = 8
 ========================================================================
 Received Import Request.
-  Time since last request: 18.100407 seconds.
-  path: Assets/ENEMYSPRITES/enemy2moveback.png
-  artifactKey: Guid(4f74298b2e8fce840944a73121bb1f02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ENEMYSPRITES/enemy2moveback.png using Guid(4f74298b2e8fce840944a73121bb1f02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1fe72d6b8c2ba4d5abbea6b40e61890') in 0.021814 seconds
+  Time since last request: 10.533896 seconds.
+  path: Assets/ENEMYSPRITES/enemy3leftmove.png
+  artifactKey: Guid(8c97f00a72efd5548bbc41da664061ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ENEMYSPRITES/enemy3leftmove.png using Guid(8c97f00a72efd5548bbc41da664061ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23927a9ea8bb72ac6a101f7b8ebdc976') in 0.023787 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 4.383522 seconds.
-  path: Assets/ENEMYSPRITES/enemy2moveback.png
-  artifactKey: Guid(4f74298b2e8fce840944a73121bb1f02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ENEMYSPRITES/enemy2moveback.png using Guid(4f74298b2e8fce840944a73121bb1f02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '077475c07c98e5afff23b9c59727c655') in 0.021433 seconds
+  Time since last request: 4.753182 seconds.
+  path: Assets/ENEMYSPRITES/enemy3leftmove.png
+  artifactKey: Guid(8c97f00a72efd5548bbc41da664061ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ENEMYSPRITES/enemy3leftmove.png using Guid(8c97f00a72efd5548bbc41da664061ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c2195209cb913749ffa6daf905705e3') in 0.153865 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 7.155203 seconds.
+  path: Assets/ENEMYSPRITES/enemy3rightmove.png
+  artifactKey: Guid(25166fe52e501034ba4908ccd622475e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ENEMYSPRITES/enemy3rightmove.png using Guid(25166fe52e501034ba4908ccd622475e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a51e536a7f1dd49c4f3a72b6f1553225') in 0.033411 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1.785452 seconds.
+  path: Assets/ENEMYSPRITES/enemy3rightmove.png
+  artifactKey: Guid(25166fe52e501034ba4908ccd622475e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ENEMYSPRITES/enemy3rightmove.png using Guid(25166fe52e501034ba4908ccd622475e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffcb6c174663dfaf840e50a2db2e15ad') in 0.017791 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 4.207229 seconds.
+  path: Assets/ENEMYSPRITES/enemy3rightmove.png
+  artifactKey: Guid(25166fe52e501034ba4908ccd622475e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ENEMYSPRITES/enemy3rightmove.png using Guid(25166fe52e501034ba4908ccd622475e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5c6e2a42b77ce64a092585da73b077f') in 0.025299 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 13.368459 seconds.
+  path: Assets/ENEMYSPRITES/enemy3sideidle.png
+  artifactKey: Guid(2b056fe89b8e37c4d9cd84807a7160e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ENEMYSPRITES/enemy3sideidle.png using Guid(2b056fe89b8e37c4d9cd84807a7160e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c237bcb9cbd42fdc7d9724ce553f5e8') in 0.029344 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 7.317919 seconds.
+  path: Assets/ENEMYSPRITES/enemy3sideidle.png
+  artifactKey: Guid(2b056fe89b8e37c4d9cd84807a7160e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ENEMYSPRITES/enemy3sideidle.png using Guid(2b056fe89b8e37c4d9cd84807a7160e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40b82f1bbeed4b446a4ff5229faba94b') in 0.019405 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 8.203861 seconds.
-  path: Assets/ENEMYSPRITES/enemy2movefront.png
-  artifactKey: Guid(08ab99d28a033744d919415956666ef8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ENEMYSPRITES/enemy2movefront.png using Guid(08ab99d28a033744d919415956666ef8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76e203e96c5de10a95fd9e1a0954d8eb') in 0.023941 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 3.967814 seconds.
-  path: Assets/ENEMYSPRITES/enemy2movefront.png
-  artifactKey: Guid(08ab99d28a033744d919415956666ef8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ENEMYSPRITES/enemy2movefront.png using Guid(08ab99d28a033744d919415956666ef8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e47f77bfa374fd65227ab7da9f004e2') in 0.192000 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 12.259558 seconds.
-  path: Assets/ENEMYSPRITES/enemy2rightidle.png
-  artifactKey: Guid(71c61b7fcc2bff9499bac3f5220d634f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ENEMYSPRITES/enemy2rightidle.png using Guid(71c61b7fcc2bff9499bac3f5220d634f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af0bd3c08d8a7384a0a9d05a1727faa2') in 0.025295 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 5.359054 seconds.
-  path: Assets/ENEMYSPRITES/enemy2rightidle.png
-  artifactKey: Guid(71c61b7fcc2bff9499bac3f5220d634f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ENEMYSPRITES/enemy2rightidle.png using Guid(71c61b7fcc2bff9499bac3f5220d634f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c34524cb964aa942032b2070ea22284f') in 0.060842 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 8.388046 seconds.
-  path: Assets/ENEMYSPRITES/enemy2rightwalk.png
-  artifactKey: Guid(4ddd150130ee72548896f401e17d5ce8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ENEMYSPRITES/enemy2rightwalk.png using Guid(4ddd150130ee72548896f401e17d5ce8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e08a6288a277e9bfe8dfb926b74042f1') in 0.019589 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 6.206022 seconds.
-  path: Assets/ENEMYSPRITES/enemy2rightwalk.png
-  artifactKey: Guid(4ddd150130ee72548896f401e17d5ce8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ENEMYSPRITES/enemy2rightwalk.png using Guid(4ddd150130ee72548896f401e17d5ce8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '124dc3881a02a971cae466d56cb213b1') in 0.066715 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
