@@ -41,10 +41,10 @@ public class playermovement : MonoBehaviour
 
         ProcessInputs();
 
-        if(Input.GetMouseButtonDown(0))
-        {
-            weapon.Fire();
-        }
+       
+        
+
+        
 
         
     }
