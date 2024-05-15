@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Enemy
   - Weapon
+  - music
   layers:
   - Default
   - TransparentFX
@@ -42,4 +43,10 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: layer1
+    uniqueID: 2202052339
+    locked: 0
+  - name: layer2
+    uniqueID: 1386964753
     locked: 0
