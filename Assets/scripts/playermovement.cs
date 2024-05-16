@@ -15,7 +15,7 @@ public class playermovement : MonoBehaviour
     [SerializeField] float dashspeed = 10f;
     [SerializeField] float dashduration = 1f;
     [SerializeField] float dashcooldown = 1f;
-    bool isDashing;
+    public bool isDashing;
     bool canDash;
 
     private Animator animator;

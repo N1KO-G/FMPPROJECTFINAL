@@ -1,6 +1,5 @@
 using System.Collections;
-using System.Collections.Generic;
-using Unity.VisualScripting;
+
 using UnityEngine;
 using TMPro;
 
@@ -8,7 +7,8 @@ public class Weapon : MonoBehaviour
 {
   
     public float speed; 
-
+    
+    
     
     public GameObject bulletprefab;
     public Transform guntip;
@@ -27,9 +27,13 @@ public class Weapon : MonoBehaviour
     public float reloadtimer = 0.5f;
     
     public bool allowButtonHold;
-    
+    public bool shotgun;
     public TextMeshProUGUI ammunitionDisplay;
     public bool shooting = false;
+    weaponpickup Weaponpickup;
+    public float spread;
+   
+    
     
     
 
@@ -39,6 +43,7 @@ public class Weapon : MonoBehaviour
    private void Awake()
    {
    bulletamount = magazinesize;
+   
   }
    
     public void Update()
@@ -47,6 +52,7 @@ public class Weapon : MonoBehaviour
         {
             Fire();
         }
+        
        
 
 
@@ -82,13 +88,24 @@ public class Weapon : MonoBehaviour
 
       
 
-       if(shootcooldown <= 0 && bulletamount > 0 && Canshoot)
+       if(shootcooldown <= 0 && bulletamount > 0 && Canshoot && !reloading && !shotgun)
        {
         shooting = true;
         shootcooldown = shootcooldown_time;
-        GameObject bullet = Instantiate(bulletprefab,guntip.position,guntip.rotation);
+        GameObject bullet = Instantiate(bulletprefab,guntip.position,guntip.rotation) ;
         Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();
         rb.AddForce(guntip.up * speed, ForceMode2D.Impulse);
+        bulletamount--;
+       }
+       else if(shootcooldown <= 0 && bulletamount > 0 && Canshoot && !reloading && shotgun)
+       {
+        shooting = true;
+        shootcooldown = shootcooldown_time;
+         for(int i = 0; i < 5; i++)
+         {GameObject bullet = Instantiate(bulletprefab,guntip.position,guntip.rotation);
+        Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();
+        rb.AddForce(ShootVector() * speed, ForceMode2D.Impulse);
+         }
         bulletamount--;
        }
        
@@ -98,6 +115,17 @@ public class Weapon : MonoBehaviour
         StartCoroutine(Reload());
        }
      
+      }
+
+      Vector2 ShootVector()
+      {
+        Vector2 shootVector = guntip.up;
+
+        shootVector.x += Random.Range(-spread/200, spread /200);
+        shootVector.y += Random.Range(-spread / 200, spread /200);
+
+        shootVector = shootVector.normalized;
+        return shootVector;
       }
         
     
@@ -133,6 +161,8 @@ public class Weapon : MonoBehaviour
         reloading = false;
         bulletamount = magazinesize;
       }
+
+        
   
 
 }

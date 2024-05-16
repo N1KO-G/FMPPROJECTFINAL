@@ -7,9 +7,11 @@ public class bulletscript : MonoBehaviour
     GameObject target;
     public float speed; 
     Rigidbody2D bulletRB;
+    playermovement playerMovement;
     // Start is called before the first frame update
     void Start()
     {
+        playerMovement= FindAnyObjectByType<playermovement>();
         bulletRB = GetComponent<Rigidbody2D>();
         target = GameObject.FindGameObjectWithTag("Player");
         Vector2 moveDir = (target.transform.position - transform.position).normalized * speed;
@@ -22,6 +24,7 @@ public class bulletscript : MonoBehaviour
 
         if (collision.gameObject.CompareTag("Player"))
         {
+            if (!playerMovement.isDashing)
             collision.gameObject.GetComponent<healthmanager>().TakeDamage(1);
         }
         

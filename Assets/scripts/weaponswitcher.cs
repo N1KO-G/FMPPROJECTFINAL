@@ -1,15 +1,19 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting.Dependencies.Sqlite;
 using UnityEngine;
 
 public class weaponswitcher : MonoBehaviour
 {
     public int selectedweapon = 0;
+    weaponpickup Weaponpickup;
     // Start is called before the first frame update
     void Start()
     {
         SelectWeapon();
+
     }
+
 
     // Update is called once per frame
     void Update()
@@ -46,6 +50,8 @@ public class weaponswitcher : MonoBehaviour
         {
             SelectWeapon();
         }
+
+      
     }
 
     void SelectWeapon()
@@ -63,4 +69,6 @@ public class weaponswitcher : MonoBehaviour
             i++;
         }
     }
+
+  
 }

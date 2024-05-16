@@ -21,7 +21,7 @@ public class healthmanager : MonoBehaviour
     {
         health = 0;
         Debug.Log("Death");
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene(4);
     } 
    }
 }
