@@ -7,9 +7,23 @@ using UnityEngine.SceneManagement;
 public class healthmanager : MonoBehaviour
 {
     public static event Action OnPlayerDamaged;
+    //public static event Action OnPlayerhealing;
     public float health, maxhealth;
-   
+    healthheartbar Healthheartbar;
 
+  public void Start()
+  {
+    Healthheartbar = FindAnyObjectByType<healthheartbar>();
+  }
+   
+ public void healthregeneration(float amount)
+   {
+        health += amount;
+        maxhealth = health;
+        Healthheartbar.DrawHearts();
+        
+    
+   }
    
    
  public void TakeDamage(float amount)

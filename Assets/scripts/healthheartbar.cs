@@ -11,11 +11,13 @@ public class healthheartbar : MonoBehaviour
     private void OnEnable()
     {
         healthmanager.OnPlayerDamaged += DrawHearts;
+        //healthmanager.OnPlayerhealing += DrawHearts;
     }
 
      private void OnDisable()
     {
         healthmanager.OnPlayerDamaged -= DrawHearts;
+        //healthmanager.OnPlayerhealing += DrawHearts;
     }
 
     void Start()
@@ -55,7 +57,7 @@ public class healthheartbar : MonoBehaviour
     public void ClearHearts()
     {
         foreach(Transform t in transform)
-        {
+        {   
             Destroy(t.gameObject);
         }
         hearts = new List<healthheart>();

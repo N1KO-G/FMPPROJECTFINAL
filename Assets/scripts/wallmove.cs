@@ -7,12 +7,13 @@ public class wallmove : MonoBehaviour
 
 public float enemiesLeft = 0;
 public float enemycount;
+public float enemiescheck;
 
 void Update () {
 	GameObject[] enemies = GameObject.FindGameObjectsWithTag("Enemy");
 		enemiesLeft = enemies.Length;
 	
-		if(enemiesLeft == 0)
+		if(enemiesLeft == enemiescheck)
 		{
 		    
             gameObject.SetActive(false);
