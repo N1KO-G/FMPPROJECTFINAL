@@ -18,19 +18,38 @@ public class devilcard : MonoBehaviour
 
    public void devilmoney()
    {
+     death = false;
+     sword = false;
+     if (devil == false && death == false && sword == false)
+     {
         devil = true;
         SceneManager.LoadScene(sceneName);
+     }
+        else devil = false;
+        
    }
 
     public void deathmoney()
    {
+     devil = false;
+     sword = false;
+     if (devil == false && death == false && sword == false)
+     {
         death = true;
         SceneManager.LoadScene(sceneName);
    }
-
-    public void swordmoney()
+        else death = false;
+   }
+     public void swordmoney()
    {
+     devil = false;
+     death = false;
+
+     if (devil == false && death == false && sword == false)
+     {
         sword = true;
         SceneManager.LoadScene(sceneName);
+   }
+   else sword = false;
    }
 }

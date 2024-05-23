@@ -32,6 +32,9 @@ public class Weapon : MonoBehaviour
     public bool shooting = false;
     weaponpickup Weaponpickup;
     public float spread;
+    public AudioClip shootsound;
+    public AudioSource AudioSource;
+    public AudioClip reloadingsound;
    
     
     
@@ -91,6 +94,7 @@ public class Weapon : MonoBehaviour
        if(shootcooldown <= 0 && bulletamount > 0 && Canshoot && !reloading && !shotgun)
        {
         shooting = true;
+        AudioSource.PlayOneShot(shootsound);
         shootcooldown = shootcooldown_time;
         GameObject bullet = Instantiate(bulletprefab,guntip.position,guntip.rotation) ;
         Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();
@@ -100,6 +104,7 @@ public class Weapon : MonoBehaviour
        else if(shootcooldown <= 0 && bulletamount > 0 && Canshoot && !reloading && shotgun)
        {
         shooting = true;
+        AudioSource.PlayOneShot(shootsound);
         shootcooldown = shootcooldown_time;
          for(int i = 0; i < 5; i++)
          {GameObject bullet = Instantiate(bulletprefab,guntip.position,guntip.rotation);
@@ -154,6 +159,7 @@ public class Weapon : MonoBehaviour
       {
         reloading = true;
         Canshoot = false;
+        AudioSource.PlayOneShot(reloadingsound);
         
         yield return new  WaitForSeconds(reloadtimer);
 

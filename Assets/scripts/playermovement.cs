@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.Rendering;
 
@@ -8,7 +9,7 @@ public class playermovement : MonoBehaviour
     public float movespeed;
     public Rigidbody2D rb;
     public Weapon weapon;
-
+    devilcard Devilcard;
     private Vector2 moveDirection;
 
     [Header("dash settings")]
@@ -18,12 +19,31 @@ public class playermovement : MonoBehaviour
     public bool isDashing;
     bool canDash;
 
+    public float steptimer;
+    public float timebetweensteps;
+    public AudioClip concrete;
+    public AudioClip grass;
+    public AudioClip dirt;
+    public AudioClip gravel;
+    public AudioClip wood;
+    public AudioClip gore;
+    public AudioClip water;
+    public AudioClip dashsound;
+
     private Animator animator;
+    public AudioSource AudioSource;
 
     private void Start()
     {
         canDash = true;
         animator = GetComponent<Animator>();
+        if (devilcard.sword)
+        {
+            movespeed -= 3;
+            dashspeed -=4;
+        }
+
+        Debug.Log(devilcard.devil);
     }
 
     // Update is called once per frame
@@ -62,6 +82,15 @@ public class playermovement : MonoBehaviour
         if (Walkchecker())
         {
         animator.SetBool("IsWalking",Walkchecker());
+        
+        steptimer -= Time.deltaTime;
+        
+        if (steptimer < 0)
+        {
+        PlayFootStepSoundL(concrete);
+        steptimer = timebetweensteps;
+        }
+
         }
         else
         {
@@ -92,14 +121,17 @@ public class playermovement : MonoBehaviour
 
     private IEnumerator dash()
     {
+        
         canDash = false;
         isDashing = true;
+        AudioSource.PlayOneShot(dashsound);
         rb.velocity = new Vector2(moveDirection.x * dashspeed, moveDirection.y * dashspeed);
         yield return new WaitForSeconds(dashduration);
         isDashing = false;
 
         yield return new WaitForSeconds(dashcooldown);
         canDash = true;
+        
 
         if (isDashing)
         {
@@ -111,8 +143,16 @@ public class playermovement : MonoBehaviour
     {
         if (moveDirection.x != 0 || moveDirection.y != 0)
         {
-            return true;
+            
+            return true; 
         }
         else return false;
+    }
+
+     void PlayFootStepSoundL(AudioClip audio)
+    {
+        AudioSource.pitch = Random.Range(0.8f, 1f);
+        AudioSource.PlayOneShot(audio);
+    
     }
 }

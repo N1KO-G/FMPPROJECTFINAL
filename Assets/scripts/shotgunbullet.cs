@@ -10,10 +10,7 @@ public class shotgunbullet : MonoBehaviour
     void Start()
     {
         Devilcard = FindObjectOfType<devilcard>();
-        if(devilcard.devil)
-        {
-            damage /= 2;
-        }
+        
     }
 
   void OnCollisionEnter2D(Collision2D collision)
@@ -22,7 +19,7 @@ public class shotgunbullet : MonoBehaviour
 
         if (collision.gameObject.CompareTag("Enemy"))
         {
-            collision.gameObject.GetComponent<enemyfollow>().TakeDamage(damage);
+            collision.gameObject.GetComponent<enemyfollow>().TakeDamage(devilcard.devil ? damage/2 : damage);
         }
         
             Destroy(this.gameObject);

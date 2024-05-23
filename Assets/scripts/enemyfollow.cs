@@ -20,6 +20,8 @@ public class enemyfollow : MonoBehaviour
     public float fireRate = 1f;
         private Animator animator;
         private Vector2 moveDirectionenemy;
+        public AudioSource AudioSource;
+        public AudioClip shootigsound;
 
     // Start is called before the first frame update
     void Start()
@@ -54,6 +56,7 @@ public class enemyfollow : MonoBehaviour
         else if (distanceFromPlayer <= shootingRange && NextFireTime < Time.time)
         {
             Instantiate(bullet, bulletParent.transform.position, Quaternion.identity);
+            AudioSource.PlayOneShot(shootigsound);
             NextFireTime = Time.time +fireRate;
             
         }

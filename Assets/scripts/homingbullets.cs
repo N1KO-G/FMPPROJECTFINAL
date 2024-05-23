@@ -8,6 +8,8 @@ public class homingbullets : MonoBehaviour
     public float speed = 5f;
     Transform player;
     playermovement playerMovement;
+    public float damage = 1;
+    
 
     
     
@@ -17,6 +19,8 @@ public class homingbullets : MonoBehaviour
         playerMovement= FindAnyObjectByType<playermovement>();
 
         player = GameObject.FindGameObjectWithTag("Player").transform;
+
+        Debug.Log(devilcard.death);
     }
 
     // Update is called once per frame
@@ -29,7 +33,7 @@ public class homingbullets : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Player") && !playerMovement.isDashing)
         {
-            collision.gameObject.GetComponent<healthmanager>().TakeDamage(1);
+            collision.gameObject.GetComponent<healthmanager>().TakeDamage(devilcard.death ? damage * 2 : damage);
         }
         
             Destroy(this.gameObject);
